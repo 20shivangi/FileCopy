@@ -1,0 +1,16 @@
+name: CI
+on:
+  push:
+    paths:
+      - '.github/workflows/main.yml'
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: az login az cli symbols
+      uses: azure/login@v1
+      with:
+        creds: ${{secrets.AZURE_CREDENTIALS}}
+        enable-AzPSSession: true
+    - run: |
+        az account show
