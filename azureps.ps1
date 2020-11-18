@@ -1,2 +1,2 @@
 write-Host "Hello"
-exit 0
+exit 1
