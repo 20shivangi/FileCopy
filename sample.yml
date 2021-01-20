@@ -1,9 +1,15 @@
 ghaeconfig:
+  # Account type to use
+  accountType: trial
+  # Name of the customer
+  customerName: customer
   # Account name to use -- DNS record will be created with accountName.githubenterprise.com
-  account: microsoft
+  accountName: microsoft
   # Location of the instance
   location: eastus2
-  # Number of seats
-  instanceSize: 5000
-  # Ring where this instance is deployed
-  ring: ring-0
+  # Cloud where this instance is deployed
+  cloud: commercial
+  # Email for the first admin user
+  email: shmittal@microsoft.com
+  # User name for the first admin user
+  userName: Password123
