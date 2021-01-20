@@ -1,2 +1,0 @@
-write-Host "Hello"
-throw
