@@ -1,14 +1,9 @@
-name: Abe Lincoln
-age: 25
-heightInInches: 6.3333334922790527
-addresses:
-  home:
-    street: 2720  Sundown Lane
-    city: Kentucketsville
-    state: Calousiyorkida
-    zip: 99978
-  work:
-    street: 1600 Pennsylvania Avenue NW
-    city: Washington
-    state: District of Columbia
-    zip: 20500
+ghaeconfig:
+  # Account name to use -- DNS record will be created with accountName.githubenterprise.com
+  account: microsoft
+  # Location of the instance
+  location: eastus2
+  # Number of seats
+  instanceSize: 5000
+  # Ring where this instance is deployed
+  ring: ring-0
