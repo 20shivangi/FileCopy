@@ -1,15 +1,15 @@
 ghaeconfig:
   # Account type to use
-  accountType: trial
+  accountType: <accountTypeValue>
   # Name of the customer
-  customerName: customer
+  customerName: <customerNameValue>
   # Account name to use -- DNS record will be created with accountName.githubenterprise.com
-  accountName: microsoft
+  accountName: <accountNameValue>
   # Location of the instance
-  location: eastus2
+  location: <locationValue>
   # Cloud where this instance is deployed
-  cloud: commercial
+  cloud: <cloudValue>
   # Email for the first admin user
-  email: shmittal@microsoft.com
+  email: <emailValue>
   # User name for the first admin user
-  userName: Password123
+  userName: <userNameValue>
