@@ -1,6 +1,6 @@
 Get-ChildItem -Path $PSScriptRoot
 Write-Host "hello"
-[string[]]$fileContent = Get-Content "$PSScriptRoot\sample.yml"
+[string[]]$fileContent = Get-Content "..\microsoft.yml"
 $content = ''
 foreach ($line in $fileContent) { $content = $content + "`n" + $line }
 $yaml = ConvertFrom-YAML $content
