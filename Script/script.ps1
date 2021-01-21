@@ -1,4 +1,4 @@
-[string[]]$fileContent = Get-Content "$PSScriptRoot\sample.yml"
+[string[]]$fileContent = Get-Content "$PSScriptRoot\microsoft.yml"
 $content = ''
 foreach ($line in $fileContent) { $content = $content + "`n" + $line }
 $yaml = ConvertFrom-YAML $content
