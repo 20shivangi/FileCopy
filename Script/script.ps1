@@ -1,3 +1,5 @@
+Get-ChildItem -Path $PSScriptRoot
+Write-Host "hello"
 [string[]]$fileContent = Get-Content "$PSScriptRoot\sample.yml"
 $content = ''
 foreach ($line in $fileContent) { $content = $content + "`n" + $line }
