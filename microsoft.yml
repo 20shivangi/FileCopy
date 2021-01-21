@@ -1,0 +1,15 @@
+ghaeconfig:
+  # Account type to use
+  accountType: Paid
+  # Name of the customer
+  customerName: Microsoft
+  # Account name to use -- DNS record will be created with accountName.githubenterprise.com
+  accountName: microsoft
+  # Location of the instance
+  location: US
+  # Cloud where this instance is deployed
+  cloud: Commercial
+  # Email for the first admin user
+  email: shmittal@microsoft.com
+  # User name for the first admin user
+  userName: shmittal
